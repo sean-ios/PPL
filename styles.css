@@ -1,0 +1,150 @@
+/* ════════════════════════════════
+   INLINE STYLES CONVERTED TO CSS CLASSES
+════════════════════════════════ */
+
+/* Hero wrap padding */
+.hero-wrap-pad {
+  padding-top: 2rem;
+}
+
+/* Width utilities */
+.w-full {
+  width: 100%;
+}
+
+.w-full-rel {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Cursor utility */
+.cursor-none {
+  cursor: none;
+}
+
+/* Section kicker - muted color */
+.sec-kicker-muted {
+  color: var(--muted);
+}
+
+/* Muted text span */
+.text-muted-mono {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Download button styles */
+.btn-download {
+  margin-top: 1.25rem;
+  display: inline-block;
+}
+
+/* Animation delay classes */
+.delay-007s {
+  animation-delay: 0.07s;
+}
+
+.delay-008s {
+  animation-delay: 0.08s;
+}
+
+.delay-01s {
+  animation-delay: 0.1s;
+}
+
+.delay-012s {
+  animation-delay: 0.12s;
+}
+
+.delay-015s {
+  animation-delay: 0.15s;
+}
+
+.delay-017s {
+  animation-delay: 0.17s;
+}
+
+.delay-02s {
+  animation-delay: 0.2s;
+}
+
+.delay-022s {
+  animation-delay: 0.22s;
+}
+
+.delay-025s {
+  animation-delay: 0.25s;
+}
+
+.delay-027s {
+  animation-delay: 0.27s;
+}
+
+.delay-072s {
+  animation-delay: 0.72s;
+}
+
+.delay-12s {
+  animation-delay: 1.2s;
+}
+
+.delay-132s {
+  animation-delay: 1.32s;
+}
+
+.delay-144s {
+  animation-delay: 1.44s;
+}
+
+.delay-156s {
+  animation-delay: 1.56s;
+}
+
+/* Transition delay classes */
+.trans-delay-007s {
+  transition-delay: 0.07s;
+}
+
+.trans-delay-008s {
+  transition-delay: 0.08s;
+}
+
+.trans-delay-01s {
+  transition-delay: 0.1s;
+}
+
+.trans-delay-012s {
+  transition-delay: 0.12s;
+}
+
+.trans-delay-015s {
+  transition-delay: 0.15s;
+}
+
+.trans-delay-017s {
+  transition-delay: 0.17s;
+}
+
+.trans-delay-02s {
+  transition-delay: 0.2s;
+}
+
+.trans-delay-022s {
+  transition-delay: 0.22s;
+}
+
+.trans-delay-025s {
+  transition-delay: 0.25s;
+}
+
+.trans-delay-027s {
+  transition-delay: 0.27s;
+}
+
+.trans-delay-072s {
+  transition-delay: 0.72s;
+}

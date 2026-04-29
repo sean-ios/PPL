@@ -1,0 +1,20 @@
+name = "portfolio-contact"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+routes = [
+  { pattern = "yourdomain.com/api/contact", zone_name = "yourdomain.com" }
+]
+
+[[kv_namespaces]]
+binding = "CONTACT_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
+
+[env.production.vars]
+YOUR_EMAIL = "your-email@example.com"
+
+[env.production.secrets]
+# Add these secrets via `wrangler secret put`
+# SENDGRID_API_KEY
