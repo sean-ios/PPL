@@ -2,6 +2,10 @@ name = "portfolio-contact"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
+[[kv_namespaces]]
+binding = "CONTACT_KV"
+id = "a79d7a1fc45646caa19b030af3e8b247"
+
 # ─── HOW TO DEPLOY ───────────────────────────────────────────
 # 1. Run: wrangler deploy
 # 2. Set secrets below via terminal (do NOT hardcode them here)
