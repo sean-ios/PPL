@@ -4,16 +4,17 @@ compatibility_date = "2024-01-01"
 
 [env.production]
 routes = [
-  { pattern = "yourdomain.com/api/contact", zone_name = "yourdomain.com" }
+  { pattern = "sean.com/api/contact", zone_name = "sean.com" }
 ]
 
 [[kv_namespaces]]
-binding = "CONTACT_KV"
-id = "YOUR_KV_NAMESPACE_ID"
-preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
+binding = "BINDING_SEAN"
+id = "a79d7a1fc45646caa19b030af3e8b247"
+
+preview_id = "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
 
 [env.production.vars]
-YOUR_EMAIL = "your-email@example.com"
+YOUR_EMAIL = "Seankeith.labios-22@cpu.edu.ph"
 
 [env.production.secrets]
 # Add these secrets via `wrangler secret put`
