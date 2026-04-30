@@ -2,20 +2,19 @@ name = "portfolio-contact"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
-[env.production]
-routes = [
-  { pattern = "sean.com/api/contact", zone_name = "sean.com" }
-]
+# ─── HOW TO DEPLOY ───────────────────────────────────────────
+# 1. Run: wrangler deploy
+# 2. Set secrets below via terminal (do NOT hardcode them here)
+#
+# wrangler secret put RESEND_API_KEY
+# wrangler secret put TO_EMAIL
+# wrangler secret put FROM_EMAIL
+# wrangler secret put ALLOWED_ORIGIN
+# ─────────────────────────────────────────────────────────────
 
-[[kv_namespaces]]
-binding = "BINDING_SEAN"
-id = "a79d7a1fc45646caa19b030af3e8b247"
-
-preview_id = "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
-
-[env.production.vars]
-YOUR_EMAIL = "Seankeith.labios-22@cpu.edu.ph"
-
-[env.production.secrets]
-# Add these secrets via `wrangler secret put`
-# SENDGRID_API_KEY
+# Secrets (set via `wrangler secret put`, never hardcode here):
+#   RESEND_API_KEY  → your key from resend.com (free: 3,000 emails/month)
+#   TO_EMAIL        → Seankeith.labios-22@cpu.edu.ph
+#   FROM_EMAIL      → onboarding@resend.dev  (for testing, no domain needed)
+#                     or noreply@yourdomain.com (once you have a domain)
+#   ALLOWED_ORIGIN  → https://your-site.pages.dev (your Cloudflare Pages URL)
